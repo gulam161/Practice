@@ -21,16 +21,16 @@
 }
 .navbar li {
   list-style: none;
-  padding: 16px;
+  padding: 16px 0px;
 }
 .navbar li a {
+  padding: 16px;
   text-decoration: none;
   font-weight: 550;
   color: rgb(247, 70, 108);
 }
-.clr {
-  background-color: red;
-}
-.clr a {
+.navbar a:hover {
   color: rgb(226, 212, 212) !important;
+  background-color: red;
+  transition: 0.5s;
 }
