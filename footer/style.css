@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: 0;
-  /* font-family: sans-serif; */
 }
 body {
   background-image: url("background-image.jpg");
@@ -229,7 +228,6 @@ body {
     padding: 3% 70% 3% 3%;
   }
   .our i {
-    /* border: 2px solid red; */
     margin-left: 75%;
     padding: 2.2%;
   }
