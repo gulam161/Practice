@@ -1,0 +1,262 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  /* font-family: sans-serif; */
+}
+body {
+  background-image: url("background-image.jpg");
+}
+.header {
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(255, 86, 86);
+  padding: 35px 80px;
+  color: white;
+  font-size: large;
+  font-family: sans-serif;
+}
+.header p {
+  padding: 12px 2px;
+  font-size: medium;
+}
+.btn button {
+  padding: 15px 40px;
+  margin-top: 10px;
+  font-size: large;
+  font-weight: 700;
+  color: rgb(255, 86, 86);
+  border: rgb(255, 86, 86);
+  border-radius: 3px;
+}
+.arrow {
+  border: solid red;
+  border-width: 0 1px 1px 0;
+  display: inline-block;
+  transform: rotate(-45deg);
+  padding: 5px;
+}
+.main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  line-height: 22pt;
+  color: rgb(109, 107, 107);
+}
+.main a {
+  display: flex;
+  flex-direction: column;
+  color: rgb(109, 107, 107);
+  text-decoration: none;
+}
+.main a:hover {
+  color: rgb(255, 86, 86);
+}
+.main h3 {
+  color: black;
+  font-size: medium;
+}
+.chef {
+  margin-top: 7%;
+}
+.chef h1 {
+  color: black;
+}
+.chef h3 {
+  margin-top: 20%;
+}
+.location {
+  margin-top: 8%;
+}
+.contact {
+  margin-top: 10%;
+}
+.company {
+  margin-top: 4%;
+  line-height: 25pt;
+}
+.company div {
+  margin-top: 15px;
+}
+.quick {
+  line-height: 25pt;
+  margin-bottom: 7px;
+}
+.quick div {
+  margin-top: 15px;
+}
+.our {
+  width: 18%;
+  margin-top: 8px;
+}
+.our p {
+  margin-top: 18px;
+}
+.our input {
+  border: none;
+  margin-top: 18px;
+  padding: 15px;
+  font-weight: 600;
+}
+.our i {
+  position: absolute;
+  margin-top: 13.5pt;
+  margin-left: 18%;
+  padding: 14px;
+  background-color: white;
+  color: black;
+}
+#container {
+  margin: 9pc 0pc 4.5pc 0pc;
+  display: flex;
+  justify-content: space-around;
+}
+.social {
+  width: 15%;
+  padding: 0% 10% 0% 5%;
+}
+.social a {
+  text-decoration: none;
+  padding-right: 10%;
+  color: black;
+}
+.social a:hover {
+  color: rgb(255, 86, 86);
+}
+.design {
+  display: flex;
+  margin-right: 22%;
+}
+.design a {
+  color: black;
+  padding-right: 3px;
+  text-decoration: none;
+  font-weight: 700;
+}
+.design a:hover {
+  color: rgb(255, 86, 86);
+}
+.design p {
+  padding: 0px 4px 0px 4px;
+  color: rgb(109, 107, 107);
+}
+
+@media screen and (max-width: 650px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+    padding: 35px 10px 30px 25px;
+  }
+  .btn {
+    margin-right: auto;
+    position: relative;
+  }
+  .main {
+    flex-direction: column;
+    align-items: start;
+    padding-left: 4%;
+  }
+  .chef {
+    margin-top: 27%;
+  }
+  .company {
+    margin-top: 18%;
+  }
+  .quick {
+    margin-top: 15%;
+  }
+  .our {
+    width: auto;
+    padding-right: 4%;
+    margin-top: 10%;
+  }
+  .our input {
+    font-size: medium;
+    padding: 20px 15px;
+  }
+  .our i {
+    margin-left: 80%;
+    padding: 21px;
+  }
+  #container {
+    flex-direction: column;
+    margin-top: 20%;
+  }
+  .social {
+    width: auto;
+    padding: 0% 10% 0% 5%;
+  }
+  .design {
+    margin-top: 6%;
+    padding-left: 4%;
+    line-height: 22pt;
+  }
+}
+@media screen and (min-width: 650px) and (max-width: 930px) {
+  .header {
+    font-size: larger;
+    flex-direction: column;
+    padding: 35px 20px 30px 30px;
+  }
+  .btn {
+    margin-right: 50%;
+  }
+  .main {
+    flex-direction: column;
+    align-items: start;
+    font-size: larger;
+    padding-left: 4%;
+  }
+  .main h3 {
+    font-size: larger;
+  }
+  .chef {
+    margin-top: 16%;
+  }
+  .company {
+    margin-top: 15%;
+  }
+  .quick {
+    margin-top: 15%;
+  }
+  .our {
+    width: auto;
+    margin-top: 10%;
+  }
+  .our input {
+    font-size: medium;
+    padding: 3% 70% 3% 3%;
+  }
+  .our i {
+    /* border: 2px solid red; */
+    margin-left: 75%;
+    padding: 2.2%;
+  }
+  #container {
+    flex-direction: column;
+    margin-top: 10%;
+  }
+  .social {
+    width: auto;
+    padding: 0% 0% 0% 5%;
+    font-size: 20px;
+  }
+  .design {
+    margin-top: 3%;
+    padding-left: 4%;
+    font-size: larger;
+    line-height: 22pt;
+  }
+}
+@media screen and (min-width: 930px) and (max-width: 1170px) {
+  .company {
+    margin-bottom: 1%;
+  }
+  .quick {
+    margin-bottom: 3%;
+  }
+  .our {
+    margin-top: 2%;
+  }
+}
