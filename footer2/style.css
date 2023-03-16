@@ -104,6 +104,9 @@
   .community {
     width: auto;
   }
+  #black {
+    padding: 3% 0%;
+  }
 }
 @media screen and (max-width: 750px) {
   #container {
