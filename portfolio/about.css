@@ -1,0 +1,124 @@
+/* About */
+.section {
+  position: relative;
+  padding: 4rem 0;
+}
+.container {
+  padding: 30px;
+}
+.mini-container {
+  display: flex;
+}
+.my-img {
+  width: 45%;
+  height: auto;
+  padding: 0px 15px;
+}
+.my-img > img {
+  padding: 0.25rem;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  width: 100%;
+}
+.intro {
+  padding: 0px 10px 0px 40px;
+}
+/* intro h1{ */
+.name {
+  font-size: 35px;
+  font-weight: 600;
+  margin-bottom: 3.5px;
+  color: rgba(0, 0, 0, 0.685);
+}
+.work {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  opacity: 0.7;
+  margin-left: 2px;
+  margin-bottom: 13px;
+}
+.intro p {
+  opacity: 0.9;
+  font-size: 16px;
+  margin-bottom: 12px;
+  letter-spacing: 0.9px;
+  line-height: 24px;
+}
+.second-btn {
+  border-radius: 50px;
+  background-color: #ff7a57;
+  border-color: #ff7a57;
+  border: 1px solid transparent;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 1rem;
+  padding: 0.67rem 1rem;
+}
+.second-btn:hover {
+  background: #fc5024;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1065px) {
+  .section {
+    padding: 3rem 0;
+  }
+  .my-img > img {
+    width: 20vw;
+    height: 80%;
+    margin-top: 12px;
+  }
+  .intro p {
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 25px;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .my-img > img {
+    width: 22vw;
+    height: 76%;
+    margin-top: 20px;
+  }
+  .intro {
+    padding: 0px 10px 0px 26px;
+  }
+  .second-btn {
+    padding: 0.72rem 1rem;
+  }
+}
+@media only screen and (max-width: 570px) {
+  .container {
+    padding: 20px;
+  }
+  .mini-container {
+    flex-direction: column;
+  }
+  .my-img {
+    width: fit-content;
+    height: auto;
+    margin-right: 10px;
+  }
+  .my-img > img {
+    width: 100%;
+    border-radius: 50%;
+  }
+  .second-btn {
+    padding: 0.78rem 1.3rem;
+  }
+  .name {
+    font-size: 36px;
+  }
+  .work {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .intro p {
+    font-size: 17px;
+    letter-spacing: 1.5px;
+  }
+}

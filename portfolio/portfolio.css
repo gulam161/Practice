@@ -1,0 +1,15 @@
+.coloumn > img {
+  position: relative;
+  width: 92%;
+  border-radius: 0.25rem !important;
+  margin-bottom: 25px;
+}
+@media only screen and (max-width: 570px) {
+  .content-2 {
+    font-size: 25px;
+  }
+  .coloumn > img {
+    width: 100%;
+    margin-bottom: 18px;
+  }
+}
